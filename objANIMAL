@@ -1,0 +1,49 @@
+package quatro09ativ;
+
+import java.util.Scanner;
+
+import quatro09modificadores.Automovel;
+import quatro09modificadores.Pessoa;
+
+public class ObjetoAnimal {
+
+	public static void main(String[] args) {
+
+	Scanner ler = new Scanner(System.in);
+		
+		Animal animal = new Animal();
+		
+		String nome;
+		String cor;
+		String tamanho;
+		String peso;
+		String raca;
+		
+		
+		System.out.println("Informe o nome do animal: ");
+		nome = ler.next();
+		
+		System.out.println("Infome a cor do animal: ");
+		cor = ler.next();
+		
+		System.out.println("Informe o tamanho do animal: ");
+		tamanho = ler.next();
+		
+		System.out.println("Informe o peso do animal: ");
+		peso = ler.next();
+		
+		System.out.println("Informe a raça do animal: ");
+		raca = ler.next();
+		
+		System.out.println("DESCRIÇÃO");
+		System.out.println("Nome: " + nome);
+		System.out.println("Cor " + cor);
+		System.out.println("Tamanho " + tamanho);
+		System.out.println("Peso: " + peso);
+		System.out.println("Raça: "+ raca);
+		
+		ler.close();
+		
+	}
+
+}
